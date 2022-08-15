@@ -62,15 +62,18 @@
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--main-border-color);
 
-    a:hover {
-      @extend %link-hover;
-    }
+    // a:hover {
+    //   @extend %link-hover;
+    // }
 
     h1 {
       font-size: 1.875rem;
       margin: 0;
       font-family: 'Source Sans Pro', 'Microsoft Yahei', sans-serif;
       font-weight: bolder;
+      a {
+        color: var(--heading-color)
+      }
     }
 
     .post-meta {
